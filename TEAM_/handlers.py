@@ -380,9 +380,9 @@ async def get_info(message: Message, state=FSMContext):
         num1 = int('{:d}'.format(int(img.height / num)))
         num2 = int('{:d}'.format(int(img.width / num)))
         img.thumbnail((num2, num1))
-        font1 = ImageFont.truetype("C:\Windows\Fonts\ARLRDBD.TTF", size=15)
-        font2 = ImageFont.truetype("arial", size=15)
-        font3 = ImageFont.truetype("C:\Windows\Fonts\ARLRDBD.TTF", size=20)
+        font1 = ImageFont.truetype("fonts\ARLRDBD.TTF", size=15)
+        font2 = ImageFont.truetype("fonts\arial.ttf", size=15)
+        font3 = ImageFont.truetype("fonts\ARLRDBD.TTF", size=20)
         text_color = (0, 0, 0)
         idraw = ImageDraw.Draw(check)
         level = 1
